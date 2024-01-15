@@ -1,0 +1,12 @@
+---
+- name: Ensure the folder exists
+  file:
+    path: "{{ locust_destination_folder }}"
+    state: directory
+  when: not ansible_check_mode
+
+- name: Copy file to the folder
+  copy:
+    src: "{{ locust_source_file }}"
+    dest: "{{ locust_destination_folder }}/{{locust_destination_file}}"
+  when: not ansible_check_mode

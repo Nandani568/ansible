@@ -1,0 +1,4 @@
+all:
+  hosts:
+    EFK_SETUP:
+      ansible_host: 54.209.117.71

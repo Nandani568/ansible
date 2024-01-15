@@ -1,0 +1,4 @@
+all:
+  hosts:
+    TD_AGENT_SETUP:
+      ansible_host: test

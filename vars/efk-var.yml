@@ -1,0 +1,7 @@
+---
+ip_address: x.x.x.x
+locust_source_folder: "/root/efk/fluentd"
+locust_destination_folder: "/root/efk/"
+locust_destination_folder1: "/root/efk/"
+locust_source_file1: "docker-compose.yml"
+locust_destination_file1:  "docker-compose.yml"

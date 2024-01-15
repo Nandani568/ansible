@@ -1,0 +1,4 @@
+---
+locust_destination_folder: "/etc/td-agent"
+locust_source_file: "td-agent.conf.j2"
+locust_destination_file: "td-agent.conf"

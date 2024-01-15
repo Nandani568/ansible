@@ -1,0 +1,2 @@
+ansible-playbook -i inventory-efk.yml efk-deploy.yml
+ansible-playbook -i inventory-td-agent.yml td-agent-deploy.yml
